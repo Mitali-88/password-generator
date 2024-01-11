@@ -35,7 +35,7 @@ function App() {
   useEffect(() => { passwordGenerator() }, [length, number, character, passwordGenerator])
   return (
     <>
-      <div className='max-w-md w-full mx-auto shadow-md rounded-lg px-4 py-3 my-8 text-orange-500 bg-gray-700'>
+      <div className='max-w-md w-full mx-auto shadow-md rounded-lg px-4 py-3 my-60 text-orange-500 bg-gray-700'>
         <h1 className='text-white text-center'> Password Generator</h1>
         <div className='flex shadow rounded-lg overflow-hidden mb-4'>
           <input
